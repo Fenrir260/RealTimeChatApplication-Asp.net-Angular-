@@ -1,0 +1,85 @@
+<header class="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <a href="/home" class="logo-text">app</a>
+      <button class="header-button" (click)="redirectToLogin()">Login</button>
+    </div>
+    <nav class="header-nav">
+      <div class="header-icons-container">
+        <button class="header-button" (click)="openFriendsModal()">
+          <img src="assets/images/myFriends.svg" alt="UserProfile Icon" class="icon"/>
+        </button>
+        <button class="header-button" (click)="redirectToHomePage()">
+          <img src="assets/images/search.svg" alt="UserProfile Icon" class="icon"/>
+        </button> 
+        <button class="header-button" (click)="openRequestModal()">
+          <div class="icon-wrapper">
+            <div *ngIf="!isRequestModalOpen">
+              <img src="assets/images/mail.svg" alt="Mail Icon" class="icon" />
+            </div>
+            <div *ngIf="isRequestModalOpen">
+              <img src="assets/images/mailOpen.svg" alt="Mail Icon" class="icon" />
+            </div>
+            <span class="notification-count" *ngIf="friendsRequestCount > 0">
+              {{ friendsRequestCount }}
+            </span>
+          </div>
+        </button>
+        
+        <button class="header-button" (click)="redirectToProfile()">
+          <img src="assets/images/userProfile.svg" alt="UserProfile Icon" class="icon"/>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div 
+  class="modal-overlay" 
+  *ngIf="isRequestModalOpen" 
+  (click)="closeRequestModal()">
+</div>
+
+<div 
+  class="modal-overlay" 
+  *ngIf="isFriendsModalOpen"
+  (click)="closeFriendsModal()">
+</div>
+
+<div class="modal modal-request" *ngIf="isRequestModalOpen" [ngClass]="{ 'open': isRequestModalOpen }">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <p>Запити на дружбу</p>
+    <div *ngIf="friendsRequest && friendsRequest.length > 0; else noRequests">
+      <div *ngFor="let request of friendsRequest" class="friend-request">
+        <p>{{ request.userName }}</p>
+        <button class="button" (click)="acceptFriendRequest(request)">Прийняти</button>
+        <button class="button" (click)="declineFriendRequest(request)">Відхилити</button>
+      </div>
+    </div>
+    <ng-template #noRequests>
+      <p>Немає нових запитів.</p>
+    </ng-template>
+    <p>Надіслані запити на дружубу</p>
+    <div *ngIf="sendedfriendsRequest && sendedfriendsRequest.length > 0; else noRequest">
+      <div *ngFor="let request of sendedfriendsRequest" class="friend-request">
+        <p>{{ request.userName }}</p>
+        <button class="button" (click)="cancelFriendRequest(request)">Скасувати запит</button>
+      </div>
+    </div>
+    <ng-template #noRequest>
+      <p>Немає нових запитів.</p>
+    </ng-template>
+  </div>
+</div>
+
+<div class="modal modal-friends" *ngIf="isFriendsModalOpen" [ngClass]="{ 'open': isFriendsModalOpen }">
+  <div class="modal-content">
+    <p>Друзі</p>
+    <div *ngFor="let friend of friendsList" class="friend-request">
+      <p>{{ friend.userName }}</p>
+      <button class="button">Написати</button>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

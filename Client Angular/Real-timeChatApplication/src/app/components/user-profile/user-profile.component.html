@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <div class="user-profile-container">
+        <div class="user-profile-card">
+          
+            
+            <h1>Вітаю, {{userInit.userName}}!</h1>
+            <!-- "userProfile.photo || -->
+
+            <!--src="src/assets/images/defaultAvatar.jpg"-->
+            <img 
+                
+                alt="User Photo" 
+                class="profile-photo">
+
+            <input 
+                type="file" 
+                (change)="onPhotoUpload($event)" 
+                *ngIf="isEditing" />
+
+            <p *ngIf="!isEditing">Ім'я: {{userProfile.firstName}}</p>
+            <input 
+                *ngIf="isEditing" 
+                [(ngModel)]="userProfile.firstName" 
+                placeholder="Ім'я">
+
+            <p *ngIf="!isEditing">Прізвище: {{userProfile.lastName}}</p>
+            <input 
+                *ngIf="isEditing" 
+                [(ngModel)]="userProfile.lastName" 
+                placeholder="Прізвище">
+
+            <p *ngIf="!isEditing">Про мене: {{userProfile.aboutMe}}</p>
+            <textarea 
+                *ngIf="isEditing" 
+                [(ngModel)]="userProfile.aboutMe" 
+                placeholder="Про мене"></textarea>
+
+            <p *ngIf="!isEditing">Вік: {{userProfile.age}}</p>
+            <input 
+                *ngIf="isEditing" 
+                type="number" 
+                [(ngModel)]="userProfile.age" 
+                placeholder="Вік">
+
+            <p *ngIf="!isEditing">Стать: {{userProfile.gender}}</p>
+            <select *ngIf="isEditing" [(ngModel)]="userProfile.gender">
+                <option value="male">Хлопець</option>
+                <option value="female">Дівчина</option>
+            </select>
+
+            <p *ngIf="!isEditing">Цікавить: {{userProfile.interestedIn}}</p>
+            <select *ngIf="isEditing" [(ngModel)]="userProfile.interestedIn">
+                <option value="girls">Дівчата</option>
+                <option value="boys">Хлопці</option>
+                <option value="blankly">Байдуже</option>
+            </select>
+
+            <p>Instagram: 
+                <span 
+                    class="{{userProfile.showInstagram ? '' : 'hidden'}}">{{userProfile.instagram}}</span>
+                <input 
+                    *ngIf="isEditing" 
+                    [(ngModel)]="userProfile.instagram" 
+                    placeholder="Instagram">
+            </p>
+
+            <p>Telegram: 
+                <span 
+                    class="{{userProfile.showTelegram ? '' : 'hidden'}}">{{userProfile.telegram}}</span>
+                <input 
+                    *ngIf="isEditing" 
+                    [(ngModel)]="userProfile.telegram" 
+                    placeholder="Telegram">
+            </p>
+
+            <button 
+                class="edit-profile-button" 
+                *ngIf="!isEditing" 
+                (click)="toggleEdit()">Редагувати профіль</button>
+            <button 
+                class="edit-profile-button" 
+                *ngIf="isEditing" 
+                (click)="saveProfile()">Зберегти</button>
+        </div>
+    </div>
+</body>
+</html>

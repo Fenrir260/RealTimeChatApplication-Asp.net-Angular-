@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+  <div class="search-container">
+    <div class="search-bar">
+      <input type="text" placeholder="Пошук друзів за іменем..." id="searchInput" [(ngModel)]="userNameToFind" />
+      <button class="search-button" (click)="findFriendsByUserName()">пошук</button>
+    </div>
+    <div class="search-results">
+      <ul id="resultsList">
+        <li class="result-item" *ngFor="let userFinded of usersFinded">
+          <span class="user-name">{{ userFinded.userName }}</span>
+          <div *ngIf="!userFinded.gettingRequest && !userFinded.sendedRequest">
+           <button class="button" (click)="sendFriendRequest(userFinded)">Добавити в друзі</button>
+          </div>
+          <div *ngIf="userFinded.gettingRequest">
+            <button class="button" (click)="acceptFriendRequest(userFinded)">Прийняти</button>
+            <button class="button" (click)="declineFriendRequest(userFinded)">Відхилити</button>
+          </div>
+          <div *ngIf="userFinded.sendedRequest"> <!-- cancle -->
+            <button class="button" (click)="cancelFriendRequest(userFinded)">Скасувати запит</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,61 @@
+body{
+  margin: 0 15% 0 15%;
+}
+
+.activation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #b9f8fe, #f6acba);
+    margin: 0;
+  }
+  
+  .activation-card {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ff758f;
+    border-radius: 12px;
+    padding: 30px 50px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 90%;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .activation-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .activation-card h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #ff4d6d;
+    text-transform: uppercase;
+  }
+  
+  .activation-card p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(135deg, #ff758f, #ff4d6d);
+    transform: translateY(-2px);
+  }
+  

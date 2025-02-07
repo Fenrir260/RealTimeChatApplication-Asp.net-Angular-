@@ -1,0 +1,94 @@
+body {
+  margin: 0 15%;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #b9f8fe, #f6acba);
+  color: #333;
+}
+
+.user-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.user-profile-card {
+  background-color: #fff;
+  border: 1px solid #ff758f;
+  border-radius: 12px;
+  padding: 30px 50px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.user-profile-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.user-profile-card h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ff4d6d;
+  text-transform: uppercase;
+}
+
+.user-profile-card p {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.edit-profile-button {
+  background: linear-gradient(135deg, #ff4d6d, #ff758f);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.edit-profile-button:hover {
+  background: linear-gradient(135deg, #ff758f, #ff4d6d);
+  transform: translateY(-2px);
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #ff758f;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 117, 143, 0.5);
+}
+
+textarea {
+  resize: vertical;
+}

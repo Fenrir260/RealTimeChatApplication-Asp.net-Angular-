@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+<div class="auth-container">
+    <div class="auth-card">
+      <h1 *ngIf="isRegisterMode">Register</h1>
+      <h1 *ngIf="!isRegisterMode">Login</h1>
+  
+      <form class="auth-form">
+        <!-- Поле User Name доступне лише у режимі реєстрації -->
+        <input
+          type="text"
+          placeholder="User Name"
+          [(ngModel)]="user.userName"
+          [ngModelOptions]="{ standalone: true }"
+          *ngIf="isRegisterMode"
+          name="userName"
+          required
+        />
+        <!-- Поле Email -->
+        <input
+          type="email"
+          placeholder="Email"
+          [(ngModel)]="user.email"
+          [ngModelOptions]="{ standalone: true }"
+          name="email"
+          required
+        />
+        <!-- Поле Password -->
+        <input
+          type="password"
+          placeholder="Password"
+          [(ngModel)]="user.password"
+          [ngModelOptions]="{ standalone: true }"
+          name="password"
+          required
+        />
+        <!-- Кнопка підтвердження -->
+        <button type="button" class="auth-button" (click)="handleSubmit()">
+          {{ isRegisterMode ? 'Register' : 'Login' }}
+        </button>
+      </form>
+
+      <!-- Перемикач між реєстрацією та входом -->
+      <p class="switch-mode-text">
+        {{ isRegisterMode ? 'Already have an account?' : "Don't have an account?" }}
+        <span (click)="toggleMode()">
+          {{ isRegisterMode ? 'Login here' : 'Register here' }}
+        </span>
+      </p>
+    </div>
+  </div>
+</body>

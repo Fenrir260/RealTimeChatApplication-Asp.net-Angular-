@@ -1,0 +1,153 @@
+body{
+  margin: 0 15% 0 15%;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #b9f8fe, #f6acba);
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid #ff758f;
+    border-radius: 6px 0 0 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #ff4d6d;
+    box-shadow: 0 0 6px rgba(255, 77, 109, 0.5);
+  }
+  
+  .search-bar .search-button {
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    color: #fff;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .search-bar .search-button:hover {
+    background: linear-gradient(135deg, #ff758f, #ff4d6d);
+    transform: translateY(-2px);
+  }
+  
+  .search-results {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+  }
+  
+  .search-results ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .result-item {
+    padding: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+    color: #333;
+    transition: background 0.3s;
+  }
+  
+  .result-item:last-child {
+    border-bottom: none;
+  }
+  
+  .result-item:hover {
+    background: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  /* Контейнер результатів */
+.search-results {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+  }
+  
+  /* Оформлення списку */
+  .search-results ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+    color: #333;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  .result-item:last-child {
+    border-bottom: none;
+  }
+  
+  .result-item:hover {
+    background: rgba(245, 245, 245, 1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .button {
+    padding: 0.7rem 1.2rem;
+    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .button:hover {
+    background: linear-gradient(135deg, #ff758f, #ff4d6d);
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    transform: translateY(0);
+  }
+  
