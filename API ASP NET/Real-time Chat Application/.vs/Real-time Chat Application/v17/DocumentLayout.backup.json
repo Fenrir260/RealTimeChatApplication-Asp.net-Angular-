@@ -1,0 +1,756 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\repositories\\implementations\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\repositories\\implementations\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\implementations\\cookieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\implementations\\cookieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\controllers\\cookiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\controllers\\cookiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\data\\entity\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\data\\entity\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\data\\entity\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\data\\entity\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\data\\entity\\userchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\data\\entity\\userchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\data\\entity\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\data\\entity\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\data\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\data\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\data\\entity\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\data\\entity\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\filters\\validatetokenattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\filters\\validatetokenattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\models\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\models\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\interfaces\\ipasswordhashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\interfaces\\ipasswordhashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\interfaces\\icookieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\interfaces\\icookieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\implementations\\passwordhashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\implementations\\passwordhashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\extentions\\indentityserviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\extentions\\indentityserviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\extentions\\applicationserviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\extentions\\applicationserviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\middleware\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\middleware\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\data\\contextdb\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\data\\contextdb\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\models\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\models\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\models\\photouploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\models\\photouploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\models\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\models\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\repositories\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\repositories\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\migrations\\20250114160333_updateaddedusernameuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\migrations\\20250114160333_updateaddedusernameuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\migrations\\20250112040548_createuserprofiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\migrations\\20250112040548_createuserprofiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112035943_createuserprofiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Real-time Chat Application\\Migrations\\20250112035943_createuserprofiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112035627_createuserprofiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Real-time Chat Application\\Migrations\\20250112035627_createuserprofiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20241230150702_UpdateDatabaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Real-time Chat Application\\Migrations\\20241230150702_UpdateDatabaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\real-time chat application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\real-time chat application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\real-time chat application.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\real-time chat application.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|c:\\programs\\course (azure)\\api asp net\\real-time chat application\\real-time chat application\\migrations\\20250116133244_friendshipdbupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CF3E2B-08FD-43EE-AFD7-6B976FA23FE0}|Real-time Chat Application\\Real-time Chat Application.csproj|solutionrelative:real-time chat application\\migrations\\20250116133244_friendshipdbupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 228,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\Message.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Data\\Entity\\Message.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\Message.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Data\\Entity\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:45:03.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Data\\Entity\\User.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\User.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Data\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:10:45.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserChat.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\UserChat.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Data\\Entity\\UserChat.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\UserChat.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Data\\Entity\\UserChat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:55:27.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Data\\Entity\\UserProfile.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\UserProfile.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Data\\Entity\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T11:29:58.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:54:35.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:17:53.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ValidateTokenAttribute.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Filters\\ValidateTokenAttribute.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Filters\\ValidateTokenAttribute.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Filters\\ValidateTokenAttribute.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Filters\\ValidateTokenAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T17:29:29.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Program.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Program.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Program.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:53:43.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Models\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserRegisterDTO.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Models\\UserRegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T23:15:03.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:38:06.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FriendsController.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\FriendsController.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Controllers\\FriendsController.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\FriendsController.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Controllers\\FriendsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAGYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:56:55.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T01:03:25.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:45:09.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICookieService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\ICookieService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Interfaces\\ICookieService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\ICookieService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Interfaces\\ICookieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T07:40:49.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:25:46.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T01:03:12.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAAKoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T12:06:47.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CookieController.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\CookieController.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Controllers\\CookieController.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\CookieController.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Controllers\\CookieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:28:04.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CookieService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\CookieService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Implementations\\CookieService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\CookieService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Implementations\\CookieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T07:42:22.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Friendship.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\Friendship.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Data\\Entity\\Friendship.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\Friendship.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Data\\Entity\\Friendship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:54:34.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\Chat.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Data\\Entity\\Chat.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\Entity\\Chat.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Data\\Entity\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:44:13.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPasswordHashService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\IPasswordHashService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Interfaces\\IPasswordHashService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Interfaces\\IPasswordHashService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Interfaces\\IPasswordHashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:06:14.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\TokenService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Implementations\\TokenService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\TokenService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Implementations\\TokenService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:44:49.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PasswordHashService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\PasswordHashService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Implementations\\PasswordHashService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\PasswordHashService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Implementations\\PasswordHashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:05:42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:26:07.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IndentityServiceExtentions.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Extentions\\IndentityServiceExtentions.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Extentions\\IndentityServiceExtentions.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Extentions\\IndentityServiceExtentions.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Extentions\\IndentityServiceExtentions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:57:19.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationServiceExtentions.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Extentions\\ApplicationServiceExtentions.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Extentions\\ApplicationServiceExtentions.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Extentions\\ApplicationServiceExtentions.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Extentions\\ApplicationServiceExtentions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:56:46.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TokenValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Middleware\\TokenValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Middleware\\TokenValidationMiddleware.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Middleware\\TokenValidationMiddleware.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Middleware\\TokenValidationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:17:15.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Models\\UserDTO.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserDTO.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Models\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T01:13:32.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:00:16.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserProfileDTO.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserProfileDTO.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Models\\UserProfileDTO.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserProfileDTO.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Models\\UserProfileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T11:29:07.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PhotoUploadDTO.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\PhotoUploadDTO.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Models\\PhotoUploadDTO.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\PhotoUploadDTO.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Models\\PhotoUploadDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T03:38:24.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ContextDB.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\ContextDb\\ContextDB.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Data\\ContextDb\\ContextDB.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Data\\ContextDb\\ContextDB.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Data\\ContextDb\\ContextDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:28:29.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250116133244_friendshipdbupdate.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250116133244_friendshipdbupdate.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Migrations\\20250116133244_friendshipdbupdate.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250116133244_friendshipdbupdate.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Migrations\\20250116133244_friendshipdbupdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:32:44.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Models\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Models\\UserLoginDTO.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Models\\UserLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:01:13.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:18:13.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250114160333_updateAddedUserNameUserProfile.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250114160333_updateAddedUserNameUserProfile.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Migrations\\20250114160333_updateAddedUserNameUserProfile.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250114160333_updateAddedUserNameUserProfile.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Migrations\\20250114160333_updateAddedUserNameUserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:03:33.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250112040548_createuserprofiledb.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112040548_createuserprofiledb.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Migrations\\20250112040548_createuserprofiledb.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112040548_createuserprofiledb.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Migrations\\20250112040548_createuserprofiledb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T04:05:48.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:34:28.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Real-time Chat Application\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T19:15:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\appsettings.json",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\appsettings.json",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\appsettings.json",
+              "RelativeToolTip": "Real-time Chat Application\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T14:48:53.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250112035627_createuserprofiledb.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112035627_createuserprofiledb.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Migrations\\20250112035627_createuserprofiledb.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112035627_createuserprofiledb.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Migrations\\20250112035627_createuserprofiledb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T03:56:27.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250112035943_createuserprofiledb.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112035943_createuserprofiledb.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Migrations\\20250112035943_createuserprofiledb.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20250112035943_createuserprofiledb.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Migrations\\20250112035943_createuserprofiledb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T03:59:43.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20241230150702_UpdateDatabaseModel.cs",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20241230150702_UpdateDatabaseModel.cs",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Migrations\\20241230150702_UpdateDatabaseModel.cs",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Migrations\\20241230150702_UpdateDatabaseModel.cs",
+              "RelativeToolTip": "Real-time Chat Application\\Migrations\\20241230150702_UpdateDatabaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:07:02.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Real-time Chat Application.csproj",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Real-time Chat Application.csproj",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Real-time Chat Application.csproj",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Real-time Chat Application.csproj",
+              "RelativeToolTip": "Real-time Chat Application\\Real-time Chat Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-10T12:13:38.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Real-time Chat Application",
+              "DocumentMoniker": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Real-time Chat Application.csproj",
+              "RelativeDocumentMoniker": "Real-time Chat Application\\Real-time Chat Application.csproj",
+              "ToolTip": "C:\\Programs\\Course (Azure)\\API ASP NET\\Real-time Chat Application\\Real-time Chat Application\\Real-time Chat Application.csproj",
+              "RelativeToolTip": "Real-time Chat Application\\Real-time Chat Application.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T20:05:49.783Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

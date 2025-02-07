@@ -1,0 +1,462 @@
+[
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.CookieController",
+    "Method": "GetDecodedTokenFromCookie",
+    "RelativePath": "api/Cookie/getDecodedTokenFromCookieByKey/{tokenKey}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenKey",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.CookieController",
+    "Method": "GetEncodedTokenFromCookie",
+    "RelativePath": "api/Cookie/getEncodedTokenFromCookieByKey/{tokenKey}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenKey",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.CookieController",
+    "Method": "GetToken",
+    "RelativePath": "api/Cookie/getToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Real_time_Chat_Application.Models.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.CookieController",
+    "Method": "SetCookie",
+    "RelativePath": "api/Cookie/setCookie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "AcceptFriendRequest",
+    "RelativePath": "api/Friends/acceptFriendRequest",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toUser",
+        "Type": "Real_time_Chat_Application.Models.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "CancelFriendRequest",
+    "RelativePath": "api/Friends/cancelFriendRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toUser",
+        "Type": "Real_time_Chat_Application.Models.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "DeclineFriendRequest",
+    "RelativePath": "api/Friends/declineFriendRequest",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toUser",
+        "Type": "Real_time_Chat_Application.Models.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "FindUsersByUserName",
+    "RelativePath": "api/Friends/findUserByUsersName/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Real_time_Chat_Application.Models.UserDTO, Real-time Chat Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "GetFriendsRequestList",
+    "RelativePath": "api/Friends/getFriendsRequestList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Real_time_Chat_Application.Models.UserDTO, Real-time Chat Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "GetMyFriendsList",
+    "RelativePath": "api/Friends/getMyFriendsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Real_time_Chat_Application.Models.UserDTO, Real-time Chat Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "GetSendFriendsRequestList",
+    "RelativePath": "api/Friends/getSendFriendsRequestList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Real_time_Chat_Application.Models.UserDTO, Real-time Chat Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.FriendsController",
+    "Method": "SendFriendRequest",
+    "RelativePath": "api/Friends/sendFriendRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toUser",
+        "Type": "Real_time_Chat_Application.Models.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "DeleteUserByUserName",
+    "RelativePath": "api/User/deleteUserByUserName",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "GetIdByUserName",
+    "RelativePath": "api/User/getIdByUserName/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "GetUserByEmail",
+    "RelativePath": "api/User/getUserByEmail/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Real_time_Chat_Application.Models.UserDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "GetUserByUserName",
+    "RelativePath": "api/User/getUserByUserName/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Real_time_Chat_Application.Models.UserDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/getUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Real_time_Chat_Application.Data.Entity.User, Real-time Chat Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "LoginUser",
+    "RelativePath": "api/User/loginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLoginDTO",
+        "Type": "Real_time_Chat_Application.Models.UserLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/User/registerUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegisterDTO",
+        "Type": "Real_time_Chat_Application.Models.UserRegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserController",
+    "Method": "SetUserAuthorize",
+    "RelativePath": "api/User/setUserAuthorize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserProfileController",
+    "Method": "GetPhotoByUserName",
+    "RelativePath": "api/UserProfile/getPhotoByUserName/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserProfileController",
+    "Method": "GetUserProfileData",
+    "RelativePath": "api/UserProfile/getUserProfileData/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserProfileController",
+    "Method": "SaveUserProfile",
+    "RelativePath": "api/UserProfile/saveUserProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userProfile",
+        "Type": "Real_time_Chat_Application.Models.UserProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Real_time_Chat_Application.Controllers.UserProfileController",
+    "Method": "UploadPhoto",
+    "RelativePath": "api/UserProfile/uploadPhoto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
