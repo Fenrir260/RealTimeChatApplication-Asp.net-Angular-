@@ -1,0 +1,10 @@
+# Ігнорування файлів SSL
+ssl.crt
+ssl.key
+
+# Ігнорування PDF файлів
+*.pdf
+
+# Ігнорування папки з фото
+UserProfilePhotos/
+
